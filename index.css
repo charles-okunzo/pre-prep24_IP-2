@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    background-color: #FAFAFA;
+}
 .bg{
     background: url("./images/hero-cover.3.png");
     background-size: cover;
@@ -117,6 +120,7 @@
 }
 .cards-2{
     justify-content: center;
+    background-color: white;
   
 }
 .cards-2 div{

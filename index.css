@@ -222,3 +222,16 @@ color: grey;
     background-color: #24A6F0;
     border-radius: 5px;
 }
+.price{
+    text-align: center;
+    margin-top: 150px;
+}
+.price h2{
+    font-size: 3em;
+    color: #252B42;
+    padding: 20px;
+}
+.price p{
+    font-size: 1.5em;
+    color: grey;
+}

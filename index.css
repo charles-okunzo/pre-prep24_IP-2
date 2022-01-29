@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat';
 }
 html{
     background-color: #FAFAFA;
@@ -39,12 +40,12 @@ html{
 }
 .login h2, .login button{
     display: inline;
-    padding: 0 20px;
+    margin: 0 20px;
 }
 .login button{
     background-color: #24A6F0;
     color: #ffffff;
-    padding: 10px;
+    padding: 15px 20px;
     border-style: none;
     border-radius: 5px;
     font-weight: bold;
@@ -110,11 +111,13 @@ html{
 }
 .cards-1 div p{
     font-size: 1.2em;
+    color: grey;
 }
 .cards-1 div h2{
     margin: 10px 0;
+    color: #252B42;
 }
-.fas, .far{
+.fa-book, .fa-bookmark, .fa-user-friends{
     color: #24A6F0;
     font-size: 2em;
 }
@@ -133,7 +136,50 @@ html{
 }
 .cards-2 div p{
     font-size: 1.2em;
+    color: grey;
 }
 .cards-2 div h3{
     margin: 10px 0;
+    color: #252B42;
+}
+.industry{
+    text-align: center;
+    margin: 100px;
+}
+.industry h2{
+    font-size: 3.5em;
+    color: #252B42;
+}
+.industry p{
+    font-size: 1.2em;
+    color: grey;
+    
+}
+.userCards{
+    justify-content: center;
+   
+}
+.userInfo{
+    border: 1px solid rgb(180, 180, 180);
+    margin: 50px;
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    border-radius: 5px;
+}
+.userInfo img{
+    height: 180px;
+}
+.userInfo p{
+font-size: 20px;
+padding: 50px 0;
+color: grey;
+}
+.fa-star{
+    color: yellow;
+    font-size: 20px;
 }

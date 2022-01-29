@@ -301,3 +301,28 @@ color: grey;
 .standard h2, .standard h3, .standard p{
     color: #ffffff;
 }
+.branch{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.branch img{
+    width: 40vw;
+    object-fit: contain;
+    padding: 100px;
+}
+.branch h2{
+    font-size: 3em;
+    padding-bottom: 20px;
+}
+.branch p{
+    font-size: 1.3em;
+}
+.branchcol{
+    background-color: #252B42;
+    margin-top: 100px;
+}
+.world{
+    color: #ffffff;
+    padding: 100px 150px;
+}

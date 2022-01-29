@@ -216,6 +216,7 @@ color: grey;
     font-size: 1.5em;
     margin-right: 0;
     border-radius: 5px;
+    border-style: none;
 }
 .subInput button{
     padding: 20px;
@@ -224,6 +225,7 @@ color: grey;
     color: #ffffff;
     background-color: #24A6F0;
     border-radius: 5px;
+    border-style: none;
 }
 .price{
     text-align: center;
@@ -237,4 +239,65 @@ color: grey;
 .price p{
     font-size: 1.5em;
     color: grey;
+}
+.free{
+    border: 1px solid #24A6F0;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-right: 1px;
+}
+.offersCard{
+    justify-content: center;
+}
+.free h2{
+    font-size: 2em;
+    color: #252B42;
+    padding: 15px;
+}
+.free h3{
+    font-size: 1.5em;
+    color: grey;
+    padding: 15px;
+}
+.dollar{
+    font-size: 4em;
+    color: #24A6F0;
+}
+.dollarsign{
+    font-size: 1.5em;
+    color: #24A6F0;
+}
+.freecentr{
+    text-align: center;
+}
+.offers{
+    font-size: 1.5em;
+    line-height: 2em;
+}
+.fa-check-circle{
+    color: #50C172;
+    font-size: 1.5em;
+}
+.checkdiff{
+    color: #BDBDBD;
+}
+.tryBtn button{
+    padding: 15px 100px;
+    font-size: 1.5em;
+    background-color: #24A6F0;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 50px auto;
+    justify-content: center;
+    border-style: none;
+}
+.standard{
+    background-color: #252B42;
+    align-items: center;
+}
+.standard h2, .standard h3, .standard p{
+    color: #ffffff;
 }

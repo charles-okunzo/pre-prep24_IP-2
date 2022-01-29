@@ -183,3 +183,42 @@ color: grey;
     color: yellow;
     font-size: 20px;
 }
+.LogoIcons{
+    justify-content: center;
+    margin-top: 150px;
+}
+.LogoIcons img{
+    margin: 50px;
+    height: 60px;
+}
+.Newsletter{
+    justify-content: space-around;
+    background-image: linear-gradient(to right, #034588, #D35088);
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    margin-top: 50px;
+}
+.subNews{
+    font-size: 2em;
+    color: #ffffff;
+    margin: 0 30px;
+    text-align: left;
+}
+.subInput{
+    margin: 0 30px;
+}
+.subInput input{
+    padding: 20px 100px 20px 10px;
+    font-size: 1.5em;
+    margin-right: 0;
+    border-radius: 5px;
+}
+.subInput button{
+    padding: 20px;
+    font-size: 1.5em;
+    margin-left: 0px;
+    color: #ffffff;
+    background-color: #24A6F0;
+    border-radius: 5px;
+}

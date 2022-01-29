@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background: url("./images/hero-cover.3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

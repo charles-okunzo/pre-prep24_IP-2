@@ -8,10 +8,15 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 150px;
 }
 .container{
     display: flex;
     flex-flow: row wrap;
+}
+.containerC{
+    display: flex;
+    flex-flow: column wrap;
 }
 .navigation{
     justify-content: space-around;
@@ -43,4 +48,88 @@
 }
 .login h2{
     font-size: 1em;
+}
+.login a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.bunnerIns{
+    justify-content: center;
+    color: #ffffff;
+    margin:100px;
+    align-items: center;
+}
+.insureServ{
+    text-align: center;
+    
+}
+.insureServ h2{
+    font-size: 3.5em;
+    margin: 25px;
+}
+.insureServ p{
+    font-size: 1.5em;
+}
+.ensureBtn{
+    justify-content: center;
+    margin: 25px;
+}
+.ensureBtn1{
+    background-color: #24A6F0;
+    color: #ffffff;
+    padding: 15px 25px;
+    margin: 10px;
+    border-style: none;
+    border-radius: 70px;
+    font-size: 1em;
+    font-weight: bold;
+}
+.ensureBtn2{
+    background-color: #24A6F0;
+    color: #ffffff;
+    padding: 15px 25px;
+    margin: 10px;
+    border-style: none;
+    border-radius: 70px;
+    font-size: 1em;
+    font-weight: bold;
+}
+.cards-1{
+    justify-content: center;
+    transform: translate(0,80px);
+}
+.cards-1 div{
+    color: #000;
+    background-color: #ffffff;
+    margin: 0 25px;
+    padding: 10px;
+    box-shadow: 5px 10px 5px grey;
+}
+.cards-1 div p{
+    font-size: 1.2em;
+}
+.cards-1 div h2{
+    margin: 10px 0;
+}
+.fas, .far{
+    color: #24A6F0;
+    font-size: 2em;
+}
+.cards-2{
+    justify-content: center;
+  
+}
+.cards-2 div{
+    text-align: center;
+    color: #000;
+    background-color: #ffffff;
+    margin: 30px;
+    padding: 20px;
+    justify-content: center;
+}
+.cards-2 div p{
+    font-size: 1.2em;
+}
+.cards-2 div h3{
+    margin: 10px 0;
 }

@@ -319,7 +319,7 @@ color: grey;
     padding-top: 100px;
 }
 .branch img{
-    width: 40vw;
+    width: 550px;
     object-fit: contain;
     padding: 100px;
 }
@@ -356,6 +356,8 @@ form input, select, #submit{
 
 }
 .contactForm{
+    display: flex;
+    flex-flow: row wrap;
     width: 60vw;
     background-color: #ffffff;
     justify-content: space-between;
@@ -443,4 +445,128 @@ footer i{
     padding: 0 5px;
     font-size: 1.3em;
    color: #24A6F0;
+}
+.socials{
+    padding: 20px 0;
+}
+.search i{
+    padding: 8px;
+    color: grey;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media screen and (max-width:500px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+    }
+    .navigation{
+        background-color: #ffffff;
+        color: #252B42;
+    }
+     .nav ul li{
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+        
+    }
+    .nav ul li a{
+        color: grey;
+    }
+    .login{
+        display: none;
+    }
+    .formBook{
+        width: 100%;
+    }
+    .cards-1 div{
+        margin: 25px auto;
+    }
+    .bg{
+        height: auto;
+    }
+    .cards-1{
+        transform: translate(0,0);
+    }
+    .userInfo{
+        margin: 20px 50px;
+    }
+    .LogoIcons-a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .subNews{
+        text-align: center;
+    }
+    .subInput button{
+        padding: 10px;
+        font-size: 1.2em;
+    }
+    .subInput input{
+        padding: 10px;
+        font-size: 1.2em;
+        margin: 10px auto;
+    }
+    .price{
+        margin: 50px 50px;
+    }
+    .free{
+        margin: 20px 50px;
+    }
+    .world{
+        padding: 50px 100px;
+    }
+    .branchcol{
+        height: 100%;
+    }
+    .contactForm{
+        transform: translate(0, 0);
+        align-items: center;
+        height: auto;
+        width: auto;
+    }
+    .formBook{
+        display: flex;
+        width: 100%;
+        margin: 20px 50px;
+    }
+    
+    .contactForm .contact-cov{
+     object-fit: contain;
+     width: 100%;
+     height: 50vh;
+        }
+    form input, select, #submit{
+            padding: 20px 180px 20px 20px;
+            width: 100%;
+            margin-top: 25px;
+            border-style: none;
+        } 
+    .consAgency{
+        margin-top: 50px;
+        padding-left: 100px;
+    }
+    .contUs{
+        margin: 50px 0;
+    }
+    .infoCard{
+        padding-left: 50px;
+        margin-top: 30px;
+    }
+    footer{
+        padding-left: 50px;
+    }
+    
 }

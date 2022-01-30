@@ -91,15 +91,27 @@ html{
     font-size: 1em;
     font-weight: bold;
 }
+.ensureBtn1:hover{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #ffffff;
+}
 .ensureBtn2{
-    background-color: #24A6F0;
+    background-color: rgba(0, 0, 0, 0);
     color: #ffffff;
     padding: 15px 25px;
     margin: 10px;
-    border-style: none;
+    border-color: #ffffff;
     border-radius: 70px;
     font-size: 1em;
     font-weight: bold;
+}
+@keyframes mytrans{
+    from{background-color: rgba(0, 0, 0, 0);}
+    to{background-color: #24A6F0;}
+}
+.ensureBtn2:hover{
+    background-color: #24A6F0;
+    animation: mytrans 5s;
 }
 .cards-1{
     justify-content: center;
@@ -325,4 +337,45 @@ color: grey;
 .world{
     color: #ffffff;
     padding: 100px 150px;
+}
+form input, select, #submit{
+    display: block;
+    padding: 20px 200px 20px 20px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.contact-cov img{
+    object-fit: cover;
+    width: 250px;
+
+}
+.contactForm{
+    width: 60vw;
+    background-color: #ffffff;
+    justify-content: center;
+    height: 80vh;
+   
+}
+.contactForm.contact-cov{
+width: 30%;
+}
+.formBook h3{
+    text-align: center;
+    font-size: 1.5em;
+    color: #252B42;
+    padding: 20px;
+    margin: 20px;
+}
+label{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #252B42;
+}
+#submit{
+    text-align: center;
+    background-color:#24A6F0;
+    color: #ffffff;
+    padding: 20px 220px;
 }

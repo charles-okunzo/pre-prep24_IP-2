@@ -391,7 +391,6 @@ label{
 }
 .consAgency{
     margin-top: 200px;
-    background-color: #ffffff;
     justify-content: space-around;
 }
 .consAgency h2{
@@ -402,4 +401,40 @@ label{
     font-size: 1.3em;
     color: grey;
     padding: 10px 0;
+}
+.infoLinks{
+    justify-content: space-evenly;
+    padding: 50px;
+    margin-top: 50px;
+    background-color: #ffffff;
+}
+.infoCard h2{
+    padding: 10px;
+    color: #252B42;
+}
+.infoCard ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+.infoCard ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.3em;
+}
+.infoCard i{
+    color: #24A6F0;
+    font-size: 1.3em;
+}
+footer{
+    justify-content: space-around;
+    font-size: 1.2em;
+    padding: 25px 0;
+}
+footer p{
+    color: grey;
+}
+footer i{
+    padding: 0 5px;
+    font-size: 1.3em;
+   color: #24A6F0;
 }

@@ -22,14 +22,14 @@ This is the Link to my website. [Here](url)
 
 ### Requirements
 
-* Either a computer,phone,tablet or an Ipad
+* Either a computer,phone.
 
 * An access to the Internet
 
 ### Installation Process
 * Connect to the internet.
 * Enter site url.
-* Surf. 
+* Surf the web. 
 
 [Go Back to the top](#portfolio)
 

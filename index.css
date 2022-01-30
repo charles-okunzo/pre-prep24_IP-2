@@ -43,7 +43,6 @@ html{
 }
 .login h2, .login button{
     display: inline;
-    margin: 0 20px;
 }
 .login button{
     background-color: #24A6F0;
@@ -54,7 +53,8 @@ html{
     font-weight: bold;
 }
 .login h2{
-    font-size: 1em;
+    font-size: 18px;
+    margin-right: 40px;
 }
 .login a{
     text-decoration: none;
@@ -71,11 +71,11 @@ html{
     
 }
 .insureServ h2{
-    font-size: 3.5em;
+    font-size: 50px;
     margin: 25px;
 }
 .insureServ p{
-    font-size: 1.5em;
+    font-size: 25px;
 }
 .ensureBtn{
     justify-content: center;
@@ -88,7 +88,7 @@ html{
     margin: 10px;
     border-style: none;
     border-radius: 70px;
-    font-size: 1em;
+    font-size: 16px;
     font-weight: bold;
 }
 .ensureBtn1:hover{
@@ -102,7 +102,7 @@ html{
     margin: 10px;
     border-color: #ffffff;
     border-radius: 70px;
-    font-size: 1em;
+    font-size: 16px;
     font-weight: bold;
 }
 @keyframes mytrans{
@@ -125,7 +125,7 @@ html{
     box-shadow: 5px 10px 5px grey;
 }
 .cards-1 div p{
-    font-size: 1.2em;
+    font-size: 18px;
     color: grey;
 }
 .cards-1 div h2{
@@ -134,7 +134,7 @@ html{
 }
 .fa-book, .fa-bookmark, .fa-user-friends{
     color: #24A6F0;
-    font-size: 2em;
+    font-size: 32px;
 }
 .cards-2{
     justify-content: center;
@@ -162,11 +162,11 @@ html{
     margin: 100px;
 }
 .industry h2{
-    font-size: 3.5em;
+    font-size: 56px;
     color: #252B42;
 }
 .industry p{
-    font-size: 1.2em;
+    font-size: 19px;
     color: grey;
     
 }
@@ -215,7 +215,7 @@ color: grey;
     margin-top: 50px;
 }
 .subNews{
-    font-size: 2em;
+    font-size: 32px;
     color: #ffffff;
     margin: 0 30px;
     text-align: left;
@@ -225,14 +225,14 @@ color: grey;
 }
 .subInput input{
     padding: 20px 100px 20px 10px;
-    font-size: 1.5em;
+    font-size: 20px;
     margin-right: 0;
     border-radius: 5px;
     border-style: none;
 }
 .subInput button{
     padding: 20px;
-    font-size: 1.5em;
+    font-size: 20px;
     margin-left: 0px;
     color: #ffffff;
     background-color: #24A6F0;
@@ -244,12 +244,12 @@ color: grey;
     margin-top: 150px;
 }
 .price h2{
-    font-size: 3em;
+    font-size: 40px;
     color: #252B42;
     padding: 20px;
 }
 .price p{
-    font-size: 1.5em;
+    font-size: 24px;
     color: grey;
 }
 .free{
@@ -265,21 +265,21 @@ color: grey;
     justify-content: center;
 }
 .free h2{
-    font-size: 2em;
+    font-size: 30px;
     color: #252B42;
     padding: 15px;
 }
 .free h3{
-    font-size: 1.5em;
+    font-size: 20px;
     color: grey;
     padding: 15px;
 }
 .dollar{
-    font-size: 4em;
+    font-size: 55px;
     color: #24A6F0;
 }
 .dollarsign{
-    font-size: 1.5em;
+    font-size: 24px;
     color: #24A6F0;
 }
 .freecentr{
@@ -291,14 +291,14 @@ color: grey;
 }
 .fa-check-circle{
     color: #50C172;
-    font-size: 1.5em;
+    font-size: 20px;
 }
 .checkdiff{
     color: #BDBDBD;
 }
 .tryBtn button{
     padding: 15px 100px;
-    font-size: 1.5em;
+    font-size: 20px;
     background-color: #24A6F0;
     color: #ffffff;
     border-radius: 5px;
@@ -324,11 +324,11 @@ color: grey;
     padding: 100px;
 }
 .branch h2{
-    font-size: 3em;
+    font-size: 40px;
     padding-bottom: 20px;
 }
 .branch p{
-    font-size: 1.3em;
+    font-size: 20px;
 }
 .branchcol{
     background-color: #252B42;
@@ -371,13 +371,13 @@ padding-left: 0;
 }
 .formBook h3{
     text-align: center;
-    font-size: 1.5em;
+    font-size: 24px;
     color: #252B42;
     padding: 20px;
     margin: 20px;
 }
 label{
-    font-size: 1.2em;
+    font-size: 20px;
     font-weight: bold;
     color: #252B42;
 }
@@ -385,11 +385,11 @@ label{
     text-align: center;
     background-color:#24A6F0;
     color: #ffffff;
-    padding: 15px 220px;
+    padding: 10px 220px;
 }
 .contUs button{
     padding: 15px 25px;
-    font-size: 1.5em;
+    font-size: 20px;
     margin-left: 0px;
     color: #ffffff;
     background-color: #24A6F0;
@@ -403,10 +403,10 @@ label{
 }
 .consAgency h2{
     color: #252B42;
-    font-size: 2em;
+    font-size: 32px;
 }
 .consAgency p{
-    font-size: 1.3em;
+    font-size: 20px;
     color: grey;
     padding: 10px 0;
 }
@@ -427,15 +427,15 @@ label{
 .infoCard ul li a{
     text-decoration: none;
     color: grey;
-    font-size: 1.3em;
+    font-size: 20px;
 }
 .infoCard i{
     color: #24A6F0;
-    font-size: 1.3em;
+    font-size: 20px;
 }
 footer{
     justify-content: space-around;
-    font-size: 1.2em;
+    font-size: 20px;
     padding: 25px 0;
 }
 footer p{
@@ -443,7 +443,7 @@ footer p{
 }
 footer i{
     padding: 0 5px;
-    font-size: 1.3em;
+    font-size: 20px;
    color: #24A6F0;
 }
 .socials{
@@ -458,7 +458,7 @@ footer i{
     flex-direction: row;
     justify-content: space-between;
 }
-@media screen and (max-width:500px){
+@media only screen and (max-width:480px){
     *{
         margin: 0;
         padding: 0;
@@ -512,11 +512,11 @@ footer i{
     }
     .subInput button{
         padding: 10px;
-        font-size: 1.2em;
+        font-size: 20px;
     }
     .subInput input{
         padding: 10px;
-        font-size: 1.2em;
+        font-size: 20px;
         margin: 10px auto;
     }
     .price{

@@ -358,7 +358,7 @@ form input, select, #submit{
     height: 80vh;
    
 }
-.contactForm.contact-cov{
+.contactForm .contact-cov{
 width: 30%;
 }
 .formBook h3{
@@ -378,4 +378,28 @@ label{
     background-color:#24A6F0;
     color: #ffffff;
     padding: 20px 220px;
+}
+.contUs button{
+    padding: 15px 25px;
+    font-size: 1.5em;
+    margin-left: 0px;
+    color: #ffffff;
+    background-color: #24A6F0;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: bold;
+}
+.consAgency{
+    margin-top: 200px;
+    background-color: #ffffff;
+    justify-content: space-around;
+}
+.consAgency h2{
+    color: #252B42;
+    font-size: 2em;
+}
+.consAgency p{
+    font-size: 1.3em;
+    color: grey;
+    padding: 10px 0;
 }

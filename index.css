@@ -449,6 +449,9 @@ footer i{
 .socials{
     padding: 20px 0;
 }
+.search{
+    display: none;
+}
 .search i{
     padding: 8px;
     color: grey;
@@ -458,7 +461,7 @@ footer i{
     flex-direction: row;
     justify-content: space-between;
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:700px){
     *{
         margin: 0;
         padding: 0;
@@ -567,6 +570,9 @@ footer i{
     }
     footer{
         padding-left: 50px;
+    }
+    .search{
+        display: inline-block;
     }
     
 }

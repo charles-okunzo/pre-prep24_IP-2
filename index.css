@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat';
+
 }
 html{
     background-color: #FAFAFA;
@@ -12,7 +13,7 @@ html{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 .clr{
     background: rgba(0, 0, 0, 0.5);
@@ -27,14 +28,14 @@ html{
 }
 .navigation{
     justify-content: space-around;
-    padding: 20px;
+    padding: 16px;
     color: white;
     font-weight: bold;
 }
 .nav ul li{
     display: inline;
     list-style-type: none;
-    padding: 0 20px;
+    padding: 0 16px;
 }
 .nav ul li a{
     color: #ffffff;
@@ -47,14 +48,14 @@ html{
 .login button{
     background-color: #24A6F0;
     color: #ffffff;
-    padding: 15px 20px;
+    padding: 12px 16px;
     border-style: none;
     border-radius: 5px;
     font-weight: bold;
 }
 .login h2{
-    font-size: 18px;
-    margin-right: 40px;
+    font-size: 15px;
+    margin-right: 32px;
 }
 .login a{
     text-decoration: none;
@@ -63,7 +64,7 @@ html{
 .bunnerIns{
     justify-content: center;
     color: #ffffff;
-    margin:100px;
+    margin:80px;
     align-items: center;
 }
 .insureServ{
@@ -71,24 +72,24 @@ html{
     
 }
 .insureServ h2{
-    font-size: 50px;
-    margin: 25px;
+    font-size: 40px;
+    margin: 20px;
 }
 .insureServ p{
-    font-size: 25px;
+    font-size: 20px;
 }
 .ensureBtn{
     justify-content: center;
-    margin: 25px;
+    margin: 20px;
 }
 .ensureBtn1{
     background-color: #24A6F0;
     color: #ffffff;
-    padding: 15px 25px;
-    margin: 10px;
+    padding: 12px 20px;
+    margin: 8px;
     border-style: none;
     border-radius: 70px;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: bold;
 }
 .ensureBtn1:hover{
@@ -98,11 +99,11 @@ html{
 .ensureBtn2{
     background-color: rgba(0, 0, 0, 0);
     color: #ffffff;
-    padding: 15px 25px;
-    margin: 10px;
+    padding: 12px 20px;
+    margin:8px;
     border-color: #ffffff;
     border-radius: 70px;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: bold;
 }
 @keyframes mytrans{
@@ -115,26 +116,26 @@ html{
 }
 .cards-1{
     justify-content: center;
-    transform: translate(0,80px);
+    transform: translate(0,64px);
 }
 .cards-1 div{
     color: #000;
     background-color: #ffffff;
-    margin: 0 25px;
-    padding: 10px;
-    box-shadow: 5px 10px 5px grey;
+    margin: 0 20px;
+    padding: 8px;
+    box-shadow: 4px 8px 4px grey;
 }
 .cards-1 div p{
-    font-size: 18px;
+    font-size: 15px;
     color: grey;
 }
 .cards-1 div h2{
-    margin: 10px 0;
+    margin: 8px 0;
     color: #252B42;
 }
 .fa-book, .fa-bookmark, .fa-user-friends{
     color: #24A6F0;
-    font-size: 32px;
+    font-size: 26px;
 }
 .cards-2{
     justify-content: center;
@@ -145,28 +146,28 @@ html{
     text-align: center;
     color: #000;
     background-color: #ffffff;
-    margin: 30px;
-    padding: 20px;
+    margin: 24px;
+    padding: 16px;
     justify-content: center;
 }
 .cards-2 div p{
-    font-size: 1.2em;
+    font-size: 16px;
     color: grey;
 }
 .cards-2 div h3{
-    margin: 10px 0;
+    margin: 8px 0;
     color: #252B42;
 }
 .industry{
     text-align: center;
-    margin: 100px;
+    margin: 80px;
 }
 .industry h2{
-    font-size: 56px;
+    font-size: 45px;
     color: #252B42;
 }
 .industry p{
-    font-size: 19px;
+    font-size: 16px;
     color: grey;
     
 }
@@ -176,63 +177,59 @@ html{
 }
 .userInfo{
     border: 1px solid rgb(180, 180, 180);
-    margin: 50px;
+    margin: 40px;
     background-color: #ffffff;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    padding: 50px;
+    padding: 40px;
     border-radius: 5px;
 }
 .userInfo img{
-    height: 180px;
+    height: 144px;
 }
 .userInfo p{
-font-size: 20px;
-padding: 50px 0;
+font-size: 16px;
+padding: 40px 0;
 color: grey;
 }
 .fa-star{
     color: yellow;
-    font-size: 20px;
+    font-size: 16px;
 }
 .LogoIcons{
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 .LogoIcons img{
-    margin: 50px;
-    height: 60px;
+    margin: 40px;
+    height: 48px;
 }
 .Newsletter{
     justify-content: space-around;
     background-image: linear-gradient(to right, #034588, #D35088);
     width: 80%;
     margin: auto;
-    padding: 30px;
-    margin-top: 50px;
+    padding: 24px;
+    margin-top: 40px;
 }
 .subNews{
-    font-size: 32px;
+    font-size: 26px;
     color: #ffffff;
-    margin: 0 30px;
+    margin: 0 24px;
     text-align: left;
 }
 .subInput{
-    margin: 0 30px;
+    margin: 0 24px;
 }
 .subInput input{
-    padding: 20px 100px 20px 10px;
-    font-size: 20px;
+    padding: 16px 80px 16px 10px;
+    font-size: 16px;
     margin-right: 0;
     border-radius: 5px;
     border-style: none;
 }
 .subInput button{
-    padding: 20px;
-    font-size: 20px;
+    padding: 16px;
+    font-size: 16px;
     margin-left: 0px;
     color: #ffffff;
     background-color: #24A6F0;
@@ -241,68 +238,68 @@ color: grey;
 }
 .price{
     text-align: center;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 .price h2{
-    font-size: 40px;
+    font-size: 32px;
     color: #252B42;
-    padding: 20px;
+    padding: 16px;
 }
 .price p{
-    font-size: 24px;
+    font-size: 20px;
     color: grey;
 }
 .free{
     border: 1px solid #24A6F0;
     border-radius: 5px;
-    padding: 20px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-right: 1px;
 }
 .offersCard{
     justify-content: center;
 }
 .free h2{
-    font-size: 30px;
+    font-size: 24px;
     color: #252B42;
-    padding: 15px;
+    padding: 12px;
 }
 .free h3{
-    font-size: 20px;
+    font-size: 16px;
     color: grey;
-    padding: 15px;
+    padding: 12px;
 }
 .dollar{
-    font-size: 55px;
+    font-size: 44px;
     color: #24A6F0;
 }
 .dollarsign{
-    font-size: 24px;
+    font-size: 20px;
     color: #24A6F0;
 }
 .freecentr{
     text-align: center;
 }
 .offers{
-    font-size: 1.5em;
+    font-size: 20px;
     line-height: 2em;
 }
 .fa-check-circle{
     color: #50C172;
-    font-size: 20px;
+    font-size: 18px;
 }
 .checkdiff{
     color: #BDBDBD;
 }
 .tryBtn button{
-    padding: 15px 100px;
-    font-size: 20px;
+    padding: 12px 80px;
+    font-size: 16px;
     background-color: #24A6F0;
     color: #ffffff;
     border-radius: 5px;
-    margin: 50px auto;
+    margin: 40px auto;
     justify-content: center;
     border-style: none;
 }
@@ -316,38 +313,39 @@ color: grey;
 .branch{
     display: flex;
     justify-content: space-around;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .branch img{
-    width: 550px;
+    width:  440px;
     object-fit: contain;
-    padding: 100px;
+    padding: 80px;
 }
 .branch h2{
-    font-size: 40px;
-    padding-bottom: 20px;
+    font-size: 32px;
+    padding-bottom: 16px;
 }
 .branch p{
-    font-size: 20px;
+    font-size: 16px;
 }
 .branchcol{
     background-color: #252B42;
-    margin-top: 100px;
+    margin-top: 80px;
     justify-content: center;
     height: 120vh;
 }
 .world{
     color: #ffffff;
-    padding: 100px 150px;
+    padding: 80px 120px;
 }
 form input, select, #submit{
     display: block;
-    padding: 20px 200px 20px 20px;
+    padding: 16px 160px 16px 16px;
     width: 90%;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 5px;
-    margin-top: 25px;
+    margin-top: 20px;
 }
+
 .contact-cov img{
     object-fit: cover;
     width: 100%;
@@ -371,13 +369,13 @@ padding-left: 0;
 }
 .formBook h3{
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     color: #252B42;
-    padding: 20px;
-    margin: 20px;
+    padding: 16px;
+    margin: 16px;
 }
 label{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     color: #252B42;
 }
@@ -385,11 +383,13 @@ label{
     text-align: center;
     background-color:#24A6F0;
     color: #ffffff;
-    padding: 10px 220px;
+    padding: 8px 176px;
+    border-style: none;
+    padding: 16px 88px 16px 88px;
 }
 .contUs button{
-    padding: 15px 25px;
-    font-size: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
     margin-left: 0px;
     color: #ffffff;
     background-color: #24A6F0;
@@ -403,54 +403,54 @@ label{
 }
 .consAgency h2{
     color: #252B42;
-    font-size: 32px;
+    font-size: 26px;
 }
 .consAgency p{
-    font-size: 20px;
+    font-size: 16px;
     color: grey;
-    padding: 10px 0;
+    padding: 8px 0;
 }
 .infoLinks{
     justify-content: space-evenly;
-    padding: 50px;
-    margin-top: 50px;
+    padding: 40px;
+    margin-top: 40px;
     background-color: #ffffff;
 }
 .infoCard h2{
-    padding: 10px;
+    padding: 8px;
     color: #252B42;
 }
 .infoCard ul li{
     list-style-type: none;
-    padding: 10px;
+    padding: 8px;
 }
 .infoCard ul li a{
     text-decoration: none;
     color: grey;
-    font-size: 20px;
+    font-size: 16px;
 }
 .infoCard i{
     color: #24A6F0;
-    font-size: 20px;
+    font-size: 16px;
 }
 footer{
     justify-content: space-around;
-    font-size: 20px;
-    padding: 25px 0;
+    font-size: 16px;
+    padding: 20px 0;
 }
 footer p{
     color: grey;
 }
 footer i{
     padding: 0 5px;
-    font-size: 20px;
+    font-size: 16px;
    color: #24A6F0;
 }
 .socials{
-    padding: 20px 0;
+    padding: 16px 0;
 }
 .search i{
-    padding: 8px;
+    padding: 7px;
     color: grey;
 }
 .logo{
@@ -477,7 +477,7 @@ footer i{
      .nav ul li{
         display: block;
         text-align: center;
-        padding: 10px 0;
+        padding: 8px 0;
         
     }
     .nav ul li a{
@@ -490,7 +490,7 @@ footer i{
         width: 100%;
     }
     .cards-1 div{
-        margin: 25px auto;
+        margin: 20px auto;
     }
     .bg{
         height: auto;
@@ -499,7 +499,16 @@ footer i{
         transform: translate(0,0);
     }
     .userInfo{
-        margin: 20px 50px;
+        margin: 16px 40px;
+        padding: 20px 10px;
+        width: 80vw;
+    }
+    .userCards{
+        justify-content: center;
+    }
+    .userInfo img{
+        width: 60%;
+        height: auto;
     }
     .LogoIcons-a{
         display: flex;
@@ -511,22 +520,22 @@ footer i{
         text-align: center;
     }
     .subInput button{
-        padding: 10px;
-        font-size: 20px;
+        padding: 8px;
+        font-size: 16px;
     }
     .subInput input{
-        padding: 10px;
-        font-size: 20px;
-        margin: 10px auto;
+        padding: 8px;
+        font-size: 16px;
+        margin: 8px auto;
     }
     .price{
-        margin: 50px 50px;
+        margin: 40px 40px;
     }
     .free{
-        margin: 20px 50px;
+        margin: 16px 40px;
     }
     .world{
-        padding: 50px 100px;
+        padding: 40px 80px;
     }
     .branchcol{
         height: 100%;
@@ -540,7 +549,7 @@ footer i{
     .formBook{
         display: flex;
         width: 100%;
-        margin: 20px 50px;
+        margin: 16px 40px;
     }
     
     .contactForm .contact-cov{
@@ -549,24 +558,28 @@ footer i{
      height: 50vh;
         }
     form input, select, #submit{
-            padding: 20px 180px 20px 20px;
+            padding: 16px 144px 16px 16px;
             width: 100%;
-            margin-top: 25px;
-            border-style: none;
+            margin-top: 20px;
         } 
+        #submit{
+            border-style: none;
+            text-align: center;
+            padding: 16px 80px 16px 80px;
+        }
     .consAgency{
-        margin-top: 50px;
-        padding-left: 100px;
+        margin-top: 40px;
+        padding-left: 80px;
     }
     .contUs{
-        margin: 50px 0;
+        margin: 40px 0;
     }
     .infoCard{
-        padding-left: 50px;
-        margin-top: 30px;
+        padding-left: 40px;
+        margin-top: 24px;
     }
     footer{
-        padding-left: 50px;
+        padding-left: 40px;
     }
     
 }

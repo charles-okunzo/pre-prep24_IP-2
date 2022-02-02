@@ -137,6 +137,12 @@ html{
     color: #24A6F0;
     font-size: 26px;
 }
+ .cards-1 .satisfaction {
+    background-color: #24A6F0;
+}
+.cards-1 .satisfaction h2, .cards-1 .satisfaction p, .cards-1 .satisfaction i{
+    color: #ffffff;
+}
 .cards-2{
     justify-content: center;
     background-color: white;

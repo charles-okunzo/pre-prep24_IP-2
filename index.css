@@ -473,7 +473,7 @@ footer i{
         padding: 0;
         box-sizing: border-box;
     }
-    body{
+    body, html{
         overflow-x: hidden;
     }
     .container{

@@ -462,6 +462,9 @@ footer i{
     padding: 7px;
     color: grey;
 }
+body, html{
+    overflow-x: hidden;
+}
 .logo{
     display: flex;
     flex-direction: row;

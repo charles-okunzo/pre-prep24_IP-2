@@ -609,4 +609,8 @@ body, html{
     position: fixed;
     bottom: 0;
     right: 0;
+    color: #fff;
+    font-size: 1.2em;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
 }

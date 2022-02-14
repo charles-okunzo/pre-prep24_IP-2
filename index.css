@@ -601,3 +601,12 @@ body, html{
     }
     
 }
+#scrollBtn{
+    float: right;
+    background-color: #24A6F0;
+    border-style: none;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

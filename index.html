@@ -301,5 +301,22 @@
             <a href="#"><i class="fab fa-youtube"></i></a>
         </div>
     </footer>
+    <button onclick="scrollUp()" id="scrollBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+    <script>
+       var scrollBtn=document.getElementById("scrollBtn");
+       window.onscroll= function (){showButton()}
+       function showButton()
+       {
+           if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+               scrollBtn.style.display="block"
+           } else {
+            scrollBtn.style.display="none"
+           }
+       }
+       function scrollUp(){
+           document.body.scrollTop=0;
+           document.documentElement.scrollTop=0;
+       }
+    </script>
 </body>
 </html>
